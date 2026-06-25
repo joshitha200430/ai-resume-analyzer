@@ -1,15 +1,30 @@
-# Python
+# ----------------------------
+# Python / Flask backend
+# ----------------------------
 backend/venv/
 backend/__pycache__/
-backend/uploads/
+backend/**/*.pyc
 backend/.env
+backend/uploads/*
+!backend/uploads/.gitkeep
 
-# React
+# ----------------------------
+# Node / React frontend
+# ----------------------------
 frontend/node_modules/
 frontend/build/
+frontend/.env
 
+# ----------------------------
 # General
+# ----------------------------
 .env
-*.pyc
+*.log
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
+
+# OS / temp
+*.tmp
+*.temp
